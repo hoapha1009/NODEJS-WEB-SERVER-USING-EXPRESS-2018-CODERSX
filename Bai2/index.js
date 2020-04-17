@@ -27,4 +27,5 @@ app.get('/users', (req, res)=>res.render('users/index', {
     ]
 }));
 
+
 app.listen(port, ()=>console.log('Server on port ' + port));
