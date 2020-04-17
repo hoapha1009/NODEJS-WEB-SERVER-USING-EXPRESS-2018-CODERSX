@@ -5,6 +5,7 @@ a(href="/users/create") Add new user!
 form(action="/users/search", method="GET")
     input(type="text", name="q", value=inputValue)
     button Search
+
 ul
     each user in users
         li= user.name
